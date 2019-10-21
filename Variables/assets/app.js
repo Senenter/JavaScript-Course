@@ -29,7 +29,7 @@ let quarterMe = 1152;
 levelUp += 5; //Adds 5 to the levelUp variable
 powerLevel -= 100; // Decreases the powerLevel by 100
 multiplyMe *= 11; //Multiplies multiplyMe by 11
-quarterMe /= 4; // Divives quarterMe by 4
+quarterMe /= 4; // Divides quarterMe by 4
 
 // These console.log() statements below will help you check the values of the variables.
 // You do not need to edit these statements.
