@@ -52,4 +52,18 @@ console.log(lostDollar);
 //Les 7 - String Concatenation with Variables
 
 let favoriteAnimal = 'Cat';
-console.log('My favorite animal:' + ' ' + favoriteAnimal);
+console.log('My favorite animal:' + ' ' + favoriteAnimal); //The increment operator can be used to add strings together
+//-------------------------------------------------------------------------------
+//Les 8 - String Interpolation
+
+let myName = 'Mart';
+let myCity = 'Vlissingen';
+
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`); //backticks are use when working with template literals as with this example. To add the contents of a virable we use: ${Hello} to add the data
+//-------------------------------------------------------------------------------
+//Les 9 - typeof operator
+
+let newVariable = 'Playing around with typeof.';
+console.log(typeof newVariable);
+newVariable = 1;
+console.log(typeof newVariable);
