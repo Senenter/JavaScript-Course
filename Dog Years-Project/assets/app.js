@@ -14,8 +14,8 @@ console.log(laterYears);
 //Adds earlyYears and laterYears together and assigns them to a new variable called myAgeInDogYears
 var myAgeInDogYears = earlyYears + laterYears;
 console.log(myAgeInDogYears);
-//Creates a const variable called myName. When it gets logged, the .toLowerCase method returns te string in lowercase letters.
-const myName = 'Mart'
-console.log(myName.toLowerCase(myName));
+//Uses the .toLowerCase method on the string called my name. This makes it so that when the variable is logged is printed in toLowercase letters
+let myName = 'Mart'
+myName = myName.toLowerCase();
 
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
