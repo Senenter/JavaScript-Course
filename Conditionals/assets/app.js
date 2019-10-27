@@ -55,13 +55,13 @@ if (wordCount) {
 }
 
 
-let favoritePhrase = 'Hello World!';
-
-if (favoritePhrase) {
-  console.log("This string doesn't seem to be empty.");
-} else {
-  console.log('This string is definitely empty.');
-}
+// let favoritePhrase = 'Hello World!';
+//
+// if (favoritePhrase) {
+//   console.log("This string doesn't seem to be empty.");
+// } else {
+//   console.log('This string is definitely empty.');
+// }
 //--------------------------------------------------------------------------------
 //Les 7 - Truthy and Falsy Assignment
 
@@ -85,3 +85,21 @@ isCorrect ? console.log('Correct!') : console.log('Incorrect!');
 let favoritePhrase = 'Love That!';
 
 favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
+//--------------------------------------------------------------------------------
+//Les 9 - Else If Statements
+
+let season = 'summer';
+
+if (season === 'spring') {
+  console.log('It\'s spring! The trees are budding!');
+} else if (season === 'winter'){
+  console.log('It\'s winter! Everything is covered in snow.');
+} else if (season === 'fall'){
+  console.log('It\'s fall! Leaves are falling!');
+} else if (season === 'summer'){
+  console.log('It\'s sunny and warm because it\'s summer!');
+} else {
+  console.log('Invalid season.');
+}
+//--------------------------------------------------------------------------------
+//Les 10 - The switch keyword
