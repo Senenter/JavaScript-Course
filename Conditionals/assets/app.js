@@ -74,7 +74,7 @@ console.log(`The ${writingUtensil} is mightier than the sword.`);
 //--------------------------------------------------------------------------------
 //Les 8 - Ternary Operator
 
-let isLocked = false;
+let isLocked = true;
 
 isLocked ? console.log('You will need a key to open the door.') : console.log('You will not need a key to open the door.');
 
