@@ -26,7 +26,7 @@ switch (randomNumber) {
     eightBall = 'Do not count on it';
   break;
   case 5:
-    eightBall = 'Do not count on it';
+    eightBall = 'My sources say no';
   break;
   case 6:
     eightBall = 'Outlook not so good';
