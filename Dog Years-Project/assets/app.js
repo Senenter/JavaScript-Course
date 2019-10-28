@@ -7,7 +7,7 @@ earlyYears = earlyYears * 10.5;
 console.log(earlyYears);
 //Subtracts 2 from the myAge variable and reassigns the outcome to the variable laterYears
 let laterYears = myAge - 2;
-console.log(myAge);
+console.log(laterYears);
 //Multiplie the let variable laterYears by 4
 laterYears = laterYears * 4;
 console.log(laterYears);
