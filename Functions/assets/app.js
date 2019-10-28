@@ -81,6 +81,4 @@ const plantNeedsWater = (day) => {
 //------------------------------------------------------------------------------
 //Les 10 - Concise Body Arrow Functions
 
-const plantNeedsWater = day => {
-  'Wednesday' ? true : false;
-};
+const plantNeedsWater = day => day === 'Wednesday' ? true : false;
