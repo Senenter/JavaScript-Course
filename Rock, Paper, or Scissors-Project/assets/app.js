@@ -16,20 +16,19 @@ const getUserChoice = (userInput) => {
 //console.log(getUserChoice('Spoon'));//Logs an invalid value and gives an error message + undefined since spoon is not defined
 
 /**
- * Function (made with the fat arror function syntax) for getting the computers choice
+ * Function (made with the fat arrow function syntax) for getting the computers choice
  * Const randomNumber is used with math.floor and math.random to get a random number between 0 and 2
  */
-
-const getComputerChoice  = () => {
-  const randomNumber = Math.floor(Math.Random() * 3);
+const getComputerChoice = () => {
+  const randomNumber = Math.floor(Math.random() * 3);
   switch (randomNumber) {
     case 0:
-      return 'Rock';
+      return 'rock';
     case 1:
       return 'paper';
     case 2:
       return 'scissors';
   }
-}
+};
 
-console.log(getComputerChoice());
+//console.log(getComputerChoice());
