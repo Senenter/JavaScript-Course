@@ -37,32 +37,32 @@ const getComputerChoice = () => {
  * Function used to determine a winner
  */
 const determineWinner = (userChoice, computerChoice) => {
-  if (userChoice === computerChoice){
+  if (userChoice === computerChoice) {
     return 'The game is a tie!';
   }
-  if (userChoice === 'rock'){
-    if (computerChoice === 'paper'){
+  if (userChoice === 'rock') {
+    if (computerChoice === 'paper') {
       return 'The Computer wins!';
     } else {
       return 'You won!';
     }
   }
 
-  if (userChoice === 'paper'){
-    if (computerChoice === 'scissors'){
+  if (userChoice === 'paper') {
+    if (computerChoice === 'scissors') {
       return 'The compuer wins!';
     } else {
       return 'You won!'
     }
   }
-  if (userChoice === 'scissors'){
-    if (computerChoice === 'rock'){
+  if (userChoice === 'scissors') {
+    if (computerChoice === 'rock') {
       return 'The computer wins!'
     } else {
       return 'You won!'
     }
   }
-  if (userChoice === 'bomb'){
+  if (userChoice === 'bomb') {
     return 'You won! But you are dead.'
   }
 };
@@ -73,12 +73,12 @@ const determineWinner = (userChoice, computerChoice) => {
 /**
  * Function to start the game
  */
-const playGame = () =>{
+const playGame = () => {
   const userChoice = getUserChoice('bomb');
   const computerChoice = getComputerChoice();
-  console.log('You threw: '+ userChoice);
+  console.log('You threw: ' + userChoice);
   //console.log(`You threw &{userChoice}`);
-  console.log('The computer threw: '+ computerChoice);
+  console.log('The computer threw: ' + computerChoice);
   console.log(determineWinner(userChoice, computerChoice));
 };
 playGame()
