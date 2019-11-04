@@ -1,10 +1,13 @@
+/**
+ * Function that defines the hours slept for each day of the week
+ */
 const getSleepHours = (day) => {
   switch (day) {
     case 'monday':
       return 8
       break;
     case 'tuesday':
-      return 7
+      return 8
       break;
     case 'wednesday':
       return 8
@@ -15,9 +18,25 @@ const getSleepHours = (day) => {
     case 'friday':
       return 8
       break;
+    case 'saturday':
+      return 8
+      break;
+    case 'sunday':
+      return 8
+      break;
 
     default:
       return 'Error!'
 
   }
 };
+console.log(getSleepHours('monday'));
+console.log(getSleepHours('thursday'));
+console.log(getSleepHours('sunday'));
+
+/**
+ * Function made to determine to total hours slept in a week
+ */
+ const getActualSleepHours = () => {
+
+ };
