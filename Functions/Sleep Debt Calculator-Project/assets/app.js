@@ -15,9 +15,17 @@ const getSleepHours = (day) => {
     case 'friday':
       return 8
       break;
+    case 'saturday':
+      return 8
+      break;
+    case 'sunday':
+      return 8
+      break;
 
     default:
       return 'Error!'
 
   }
 };
+
+console.log(getSleepHours('sunday'));
