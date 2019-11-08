@@ -81,4 +81,4 @@ const playGame = () => {
   console.log('The computer threw: ' + computerChoice);
   console.log(determineWinner(userChoice, computerChoice));
 };
-playGame()
+playGame();
