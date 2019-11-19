@@ -46,5 +46,5 @@ console.log(getSleepHours('sunday'));
    getSleepHours('saturday') +
    getSleepHours('sunday');
 
-   console.log(getSleephours(''monday));
+   console.log(getSleephours('monday'));
    
