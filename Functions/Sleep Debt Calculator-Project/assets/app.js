@@ -4,22 +4,22 @@
 const getSleepHours = (day) => {
   switch (day) {
     case 'monday':
-      return 4
+      return 8
       break;
     case 'tuesday':
-      return 7
+      return 8
       break;
     case 'wednesday':
       return 8
       break;
     case 'thursday':
-      return 5
+      return 8
       break;
     case 'friday':
-      return 6
+      return 8
       break;
     case 'saturday':
-      return 7
+      return 8
       break;
     case 'sunday':
       return 8
@@ -30,12 +30,12 @@ const getSleepHours = (day) => {
 
   }
 };
-console.log(getSleepHours('monday'));
-console.log(getSleepHours('thursday'));
-console.log(getSleepHours('sunday'));
+// console.log(getSleepHours('monday'));
+// console.log(getSleepHours('thursday'));
+// console.log(getSleepHours('sunday'));
 
 /**
- * Function made to determine to total hours slept in a week
+ * Function made to determine to total hours slept in a week using an implicit return
  */
  const getActualSleepHours = () => 
    getSleepHours('monday') +
@@ -46,5 +46,36 @@ console.log(getSleepHours('sunday'));
    getSleepHours('saturday') +
    getSleepHours('sunday');
 
-   console.log(getSleephours('monday'));
+   //console.log(getActualSleepHours());
    
+   
+const getIdealSleepHours = () =>{
+  const idealHours = 8
+  return idealHours * 7;
+
+};
+
+console.log(getActualSleepHours());
+console.log(getIdealSleepHours());
+
+const calculateSleepDebpt = () => {
+  const actualSleepHours = getActualSleepHours();
+  const idealSleepHours = getIdealSleepHours();
+
+  if (actualSleepHours === idealSleepHours){
+    console.log('You got the perfect amount of sleep!');
+    
+  }else if (actualSleepHours > idealSleepHours){
+    console.log('You got ' + (idealSleepHours - actualSleepHours) + ' more hours of sleep this week!');
+    
+  }else if (actualSleepHours < idealSleepHours){ 
+    console.log('You got ' + (idealSleepHours - actualSleepHours) + ' hours less of sleep, get some rest!');
+  }
+    
+
+};
+
+calculateSleepDebpt()
+
+
+  
