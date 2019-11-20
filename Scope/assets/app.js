@@ -35,14 +35,14 @@ console.log(callMyNightSky());
  * When the called outside of the function we will get a reffrence error
  */
 
-const logVisibleLightWaves = () => {
+const logVisibleLightWavesLessonFour = () => {
     const lightWaves = 'Moonlight';
     
     console.log(lightWaves);
     
 };
 
-logVisibleLightWaves()
+logVisibleLightWavesLessonFour()
 console.log(lightWaves);
 //------------------------------------------------------------------------
 // Lesson 5 - Scope Pollution
@@ -66,3 +66,16 @@ console.log(stars);
 //------------------------------------------------------------------------
 // Lesson 6 - Practice Good Scoping
 
+const logVisibleLightWaves = () => {
+    let lightWaves = 'Moonlight';
+      let region = 'The Arctic';
+    // Add if statement here:
+    if (region === 'The Arctic'){
+      let lightWaves = 'Northern Lights';
+      console.log(lightWaves);
+    }
+    
+    console.log(lightWaves);
+  };
+  
+  logVisibleLightWaves();
