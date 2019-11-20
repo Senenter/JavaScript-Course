@@ -28,7 +28,7 @@ const callMyNightSky = () => {
 
 console.log(callMyNightSky());
 //------------------------------------------------------------------------
-// Les 4 - Block Scope
+// Lesson 4 - Block Scope
 
 /**
  * Variables inside of this function can only be called from within the function, this is called Block Scope
@@ -45,5 +45,24 @@ const logVisibleLightWaves = () => {
 logVisibleLightWaves()
 console.log(lightWaves);
 //------------------------------------------------------------------------
-// Les 5 - 
+// Lesson 5 - Scope Pollution
+
+/**
+ *  star = 'Sirius' overrides the global variable becuase it is called within the function
+ */
+
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+const stars = 'North Star';
+
+
+const callMyNightSky = () => {
+    stars = 'Sirius';
+    return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+};
+
+console.log(callMyNightSky());
+console.log(stars);
+//------------------------------------------------------------------------
+// Lesson 6 - Practice Good Scoping
 
