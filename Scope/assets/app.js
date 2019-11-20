@@ -13,7 +13,7 @@ console.log(logCitySkyline());
 // les 3 - CLobal 
 
 /**
- * variable outisde of this function can still be called sionce they are in the clobal scope
+ * Variables outisde of this function can still be called sionce they are in the clobal scope, they are called Global Variables
  * But the varaibles need to be declared before the function, otherwise they cannot be accesed
  */
 
@@ -30,6 +30,11 @@ console.log(callMyNightSky());
 //------------------------------------------------------------------------
 // Les 4 - Block Scope
 
+/**
+ * Variables inside of this function can only be called from within the function, this is called Block Scope
+ * When the called outside of the function we will get a reffrence error
+ */
+
 const logVisibleLightWaves = () => {
     const lightWaves = 'Moonlight';
     
@@ -39,4 +44,6 @@ const logVisibleLightWaves = () => {
 
 logVisibleLightWaves()
 console.log(lightWaves);
+//------------------------------------------------------------------------
+// Les 5 - 
 
