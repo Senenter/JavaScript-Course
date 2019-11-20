@@ -58,7 +58,7 @@ const getIdealSleepHours = () =>{
 console.log(getActualSleepHours());
 console.log(getIdealSleepHours());
 
-const calculateSleepDebpt = () => {
+  const calculateSleepDebpt = () => {
   const actualSleepHours = getActualSleepHours();
   const idealSleepHours = getIdealSleepHours();
 
