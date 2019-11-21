@@ -85,3 +85,12 @@ while (currentCard != 'spade') {
     console.log(currentCard);
     
 }
+//--------------------------------------------------------
+// Lesson 8 - Do...While Statements
+
+const cupsOfSugarNeeded = 4;
+const cupsAdded = 0;
+
+do {
+    cupsAdded++
+} while (cupsAdded < cupsOfSugarNeeded);
