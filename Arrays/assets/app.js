@@ -149,8 +149,51 @@ console.log(groceryList);
  */
 console.log(groceryList.slice(1,4));
 console.log(groceryList);
-
+/**
+ * .indexOf returns the index location of the item in the array passed into it, 
+ */
 const pastaIndex = groceryList.indexOf('pasta');
 console.log(pastaIndex);
+//-------------------------------------------------------------------------------
+// Lesson 10 - Arrays and Functions
 
+const concept = [
+    'arrays', 
+    'can', 
+    'be', 
+    'mutated'
+
+];
+
+function changeArr(arr){
+  arr[3] = 'MUTATED';
+}
+
+changeArr(concept);
+
+console.log(concept);
+
+removeElement = (newArr) => {
+    newArr.pop();
+
+};
+
+removeElement(concept);
+
+console.log(concept);
+/**
+ * These changes to the array are maintained outside of the function
+ */
+//-------------------------------------------------------------------------------
+// Lesson 11 - Nested Arrays
+
+const numberClusters = [
+    [1, 2], 
+    [3, 4], 
+    [5, 6]
+
+];
+
+const target = numberClusters[2][1];
+console.log(target);
 
