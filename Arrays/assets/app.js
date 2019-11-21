@@ -194,6 +194,12 @@ const numberClusters = [
 
 ];
 
+/**
+ * by chaining the brackets we can extract the value of 6 form the nested array,
+ * [2] reffering to the final array inside of the array and [1] reffering to the value of 6
+ * Which is located at the index 2
+ */
+
 const target = numberClusters[2][1];
 console.log(target);
 
