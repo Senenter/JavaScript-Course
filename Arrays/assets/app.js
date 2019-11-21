@@ -145,7 +145,7 @@ groceryList.shift();
 groceryList.unshift('popcorn');
 console.log(groceryList);
 /**
- * .slice() return a cope of a portion of the array and adds it into a new array, the original array will not be changed
+ * .slice() return a copy of a portion of the array and adds it into a new array, the original array will not be changed
  */
 console.log(groceryList.slice(1,4));
 console.log(groceryList);
