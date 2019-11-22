@@ -89,7 +89,7 @@ while (currentCard != 'spade') {
 // Lesson 8 - Do...While Statements
 
 const cupsOfSugarNeeded = 4;
-const cupsAdded = 0;
+let cupsAdded = 0;
 
 do {
     cupsAdded++
