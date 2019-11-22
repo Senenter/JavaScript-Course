@@ -90,10 +90,14 @@ while (currentCard != 'spade') {
 
 const cupsOfSugarNeeded = 4;
 let cupsAdded = 0;
+<<<<<<< HEAD
 /**
  * cupsAdded++ increments the value of cupsAdded by 1 everytime the loop runs, as long as it less than the value of cupsOfSugarNeeded
  * do while loops allways run atleast 1 time, wether or not the condition evaluates to true,
  */
+=======
+
+>>>>>>> bc0842b2ed8483863802abe10b2ef643b7eb6b7a
 do {
     cupsAdded++
 } while (cupsAdded < cupsOfSugarNeeded);
