@@ -94,3 +94,17 @@ let cupsAdded = 0;
 do {
     cupsAdded++
 } while (cupsAdded < cupsOfSugarNeeded);
+//--------------------------------------------------------
+// Lesson 9 - The break Keyword
+
+const rapperArray = [
+    "Lil' Kim", 
+    "Jay-Z", 
+    "Notorious B.I.G.", 
+    "Tupac"
+
+];
+
+for (let i = 0; i < rapperArray.length; i++) {
+    console.log(rapperArray[i]);  
+};
