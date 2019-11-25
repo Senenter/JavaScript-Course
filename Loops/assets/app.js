@@ -110,6 +110,11 @@ const rapperArray = [
 ];
 
 for (let i = 0; i < rapperArray.length; i++) {
+    if (rapperArray[i] === 'Notorious B.I.G.'){
+        break;
+
+    }
     console.log(rapperArray[i]);  
 };
-// Lesson 9 - The break Keyword
+
+console.log("And if you don't know, now you know.");
