@@ -90,6 +90,10 @@ while (currentCard != 'spade') {
 
 const cupsOfSugarNeeded = 4;
 let cupsAdded = 0;
+/**
+ * cupsAdded++ increments the value of cupsAdded by 1 everytime the loop runs, as long as it less than the value of cupsOfSugarNeeded
+ * do while loops allways run atleast 1 time, wether or not the condition evaluates to true,
+ */
 
 do {
     cupsAdded++
@@ -108,3 +112,4 @@ const rapperArray = [
 for (let i = 0; i < rapperArray.length; i++) {
     console.log(rapperArray[i]);  
 };
+// Lesson 9 - The break Keyword
