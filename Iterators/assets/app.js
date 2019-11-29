@@ -25,5 +25,21 @@ const bigNumbers = [100, 200, 300, 400, 500];
 const smallNumbers = bigNumbers.map(number => {
     return number / 100;
 });
+//---------------------------------------------------------------------
+// Lesson 4 - The .filter() Method
 
-console.log(smallNumbers);
+const randomNumbers = [375, 200, 3.14, 7, 13, 852];
+
+const smallerNumbers = randomNumbers.filter (number => {
+    if (number < 250) {
+        return true;
+    }
+});
+
+const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
+
+const longFavoriteWords = favoriteWords.filter (word => {
+    return word.length > 7;
+});
+//---------------------------------------------------------------------
+// Lesson 5 - The .findIndex() Method
