@@ -48,4 +48,4 @@ const checkConsistentOutput = (func, val) => {
     }
 };
 
-checkConsistentOutput(addTwo, 10);
+checkConsistentOutput(addTwo, 10)
